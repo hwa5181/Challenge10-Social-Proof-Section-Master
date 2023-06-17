@@ -184,5 +184,17 @@ main {
         grid-auto-flow: column;
         gap: 1.75rem;
     }
+
+    .container-people {
+        height: calc(280/16*1rem);
+    }
+
+    .container-people:nth-child(2) {
+        margin-top: 1rem;
+    }
+
+    .container-people:nth-child(3) {
+        margin-top: 2rem;
+    }
 }
 
