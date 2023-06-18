@@ -135,7 +135,7 @@ main {
     line-height: 1.5;
 }
 
-@media screen and (min-width: 900px) {    
+@media screen and (min-width: 980px) {    
     body {
         background-image: url("images/bg-pattern-top-desktop.svg") , url("images/bg-pattern-bottom-desktop.svg");
         background-repeat: no-repeat, no-repeat;
@@ -182,8 +182,19 @@ main {
 
     .section-people {
         grid-auto-flow: column;
-        grid-template-rows: min-content;
         gap: 1.75rem;
+    }
+
+    .container-people {
+        height: calc(280/16*1rem);
+    }
+
+    .container-people:nth-child(2) {
+        margin-top: 1rem;
+    }
+
+    .container-people:nth-child(3) {
+        margin-top: 2rem;
     }
 }
 
