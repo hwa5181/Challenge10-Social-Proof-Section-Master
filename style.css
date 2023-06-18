@@ -182,7 +182,7 @@ main {
 
     .section-people {
         grid-auto-flow: column;
-        /* grid-template-rows: min-content; */
+        grid-template-rows: min-content;
         gap: 1.75rem;
     }
 }
